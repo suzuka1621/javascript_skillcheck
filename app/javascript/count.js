@@ -1,5 +1,7 @@
 function count (){
-  console.log("文字数カウント機能を実装");
+  const articleText = document.getElementById("article_text");
+  articleText.addEventListener("keyup", () => {
+  });
 };
 
 window.addEventListener('load', count);
